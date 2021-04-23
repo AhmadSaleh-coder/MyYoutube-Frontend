@@ -1,0 +1,48 @@
+.history-right-column{
+    background-color: #fff;
+    height: 566px;
+}
+
+.list-group-item.active {
+    background-color: #bf4fbf;
+    border-color: #bf4fbf;
+}
+
+time{
+    bottom: 7px;
+    left: 2px;
+}
+
+.history-page .remove{
+    position: absolute;
+    top: 5px;
+    left: 225%;
+    color: #2c3131c2;
+    cursor: pointer;
+}
+
+@media(min-width:768px) and (max-width:1199px){
+    .card .card-horizontal .card-body .channel-img{
+        display: block;
+        margin-top: 10px;
+        
+    }
+
+    .card .fa-play{
+        top: 36%;
+        right: 49%;
+    }
+    
+    h4{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+}
+
+@media(max-width: 767px){
+    .card .card-top-image{
+        width: 100%;
+    }
+}
